@@ -1,0 +1,23 @@
+2020/08/03 17:02:08 [emerg] 9176#1160: "server" directive is not allowed here in D:\Application\nginx-1.12.2/conf/nginx.conf:1
+2020/08/03 17:03:38 [notice] 10428#10248: signal process started
+2020/08/03 17:03:38 [error] 10428#10248: OpenEvent("Global\ngx_reload_10812") failed (2: The system cannot find the file specified)
+2020/08/03 17:04:16 [notice] 9108#11744: signal process started
+2020/08/03 17:04:16 [error] 9108#11744: OpenEvent("Global\ngx_reload_10812") failed (2: The system cannot find the file specified)
+2020/08/03 17:04:53 [notice] 12244#5048: signal process started
+2020/08/03 17:04:53 [error] 12244#5048: OpenEvent("Global\ngx_reload_10812") failed (2: The system cannot find the file specified)
+2020/08/03 17:07:38 [notice] 10632#11704: signal process started
+2020/08/03 17:07:38 [error] 10632#11704: OpenEvent("Global\ngx_reload_10812") failed (2: The system cannot find the file specified)
+2020/08/03 17:08:34 [notice] 10736#11332: signal process started
+2020/08/03 17:08:34 [error] 10736#11332: OpenEvent("Global\ngx_reload_10812") failed (2: The system cannot find the file specified)
+2020/08/03 17:08:52 [notice] 4580#5880: signal process started
+2020/08/03 17:08:52 [error] 4580#5880: OpenEvent("Global\ngx_reload_10812") failed (2: The system cannot find the file specified)
+2020/08/03 17:09:03 [notice] 11192#10608: signal process started
+2020/08/03 17:09:03 [error] 11192#10608: OpenEvent("Global\ngx_reload_10812") failed (2: The system cannot find the file specified)
+2020/08/03 17:10:43 [notice] 4608#11320: signal process started
+2020/08/03 17:11:08 [notice] 10716#10916: signal process started
+2020/08/03 17:25:59 [error] 10140#8304: *30 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /index HTTP/1.1", host: "localhost:8085"
+2020/08/03 17:25:59 [error] 10140#8304: *31 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8085", referrer: "http://localhost:8085/index"
+2020/08/03 17:26:01 [error] 10140#8304: *32 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /index HTTP/1.1", host: "localhost:8085"
+2020/08/03 17:26:02 [error] 10140#8304: *33 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8085", referrer: "http://localhost:8085/index"
+2020/08/03 17:26:06 [error] 10140#8304: *34 directory index of "D:/Application/nginx-1.12.2/html/dist/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8085"
+2020/08/03 17:26:06 [error] 10140#8304: *34 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8085", referrer: "http://localhost:8085/"
